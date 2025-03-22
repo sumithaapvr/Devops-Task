@@ -1,0 +1,7 @@
+minikube start
+mkdir Task4
+cd Task4
+nano file.yaml
+kubectl apply -f file.yaml
+kubectl get pods
+minikube service springboot-app
